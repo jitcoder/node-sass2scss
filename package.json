@@ -1,0 +1,29 @@
+{
+  "name": "node-sass2scss",
+  "version": "0.0.1",
+  "description": "Node bindings for sass2scss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jitcoder/node-sass2scss.git"
+  },
+  "keywords": [
+    "sass",
+    "scss",
+    "convert"
+  ],
+  "author": "JitCoder",
+  "license": "MIT",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/jitcoder/node-sass2scss/issues"
+  },
+  "homepage": "https://github.com/jitcoder/node-sass2scss#readme",
+  "dependencies": {
+    "bindings": "^1.2.1"
+  }
+}
